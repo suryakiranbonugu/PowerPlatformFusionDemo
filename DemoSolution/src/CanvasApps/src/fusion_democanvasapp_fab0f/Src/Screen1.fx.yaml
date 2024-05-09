@@ -4,7 +4,7 @@ Screen1 As screen:
         Align: =Align.Center
         FontWeight: =FontWeight.Bold
         Size: =20
-        Text: ="Welcome Fusion Developers!"
+        Text: ="Welcome! Fusion Developers"
         Width: =574
         X: =387
         Y: =15
