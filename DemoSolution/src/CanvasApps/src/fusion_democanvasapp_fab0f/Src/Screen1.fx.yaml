@@ -1,0 +1,34 @@
+Screen1 As screen:
+
+    lblHeader As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Size: =20
+        Text: ="Welcome Fusion Developers!"
+        Width: =574
+        X: =387
+        Y: =15
+        ZIndex: =2
+
+    btnSubmit As button:
+        OnSelect: =Set(varOut,"Entered Input is "&txtInput.Text)
+        Text: ="Generate Message"
+        Width: =210
+        X: =630
+        Y: =153
+        ZIndex: =3
+
+    lblOutput As label:
+        Height: =88
+        Text: =varOut
+        Width: =478
+        X: =441
+        Y: =285
+        ZIndex: =4
+
+    txtInput As text:
+        Default: ="Please Enter Data"
+        X: =268
+        Y: =153
+        ZIndex: =5
+
